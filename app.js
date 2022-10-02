@@ -860,6 +860,7 @@ const map = {
       island: [
         { location: "VI", lat: 151.09, long: 300 },
         { location: "Lekki", lat: 200.56, long: 400.56 },
+        { location: "Ikoyi", lat: 200.56, long: 400.56 },
       ],
     },
   },

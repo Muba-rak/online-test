@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- navbar -->
+<div class="">
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img-fluid" width="20px" src="./images/img1.PNG"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#intro">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Email</a></li>
+                            <li><a class="dropdown-item" href="https://twitter.com/fOla__rin"
+                                    target="_blank">Twitter</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://facebook.com" target="_blank">Facebook</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#msg">Message Me!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- introductory section -->
+<section id="intro" class="my-3">
+    <div class="container-lg">
+        <div class="row justify-content-between">
+            <div class="col-md-5">
+                <h1>
+                    <div class="display-3">Mubarak Oladapo</div>
+                    <div class="text-info">A software developer</div>
+                </h1>
+                <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est labore
+                    porro! Explicabo,
+                    ea nulla! Pariatur repellendus cum totam atque!</p>
+                <button class="btn btn-info btn-md p-3 text-light"> Read More</button>
+            </div>
+            <div class="col-md-5 d-none d-md-block">
+                <img class="img-fluid" src="./images/img2.JPG" alt="My Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Educational Background -->
+<section id="education">
+
+    <div class="container">
+        <h1 class="display-5 text-info">Educational Background</h1>
+        <ul>
+            <li class="text-dark text-start">
+                <p>SSCE 2018 Legacy sec school</p>
+            </li>
+            <li class="text-dark">
+                <p>BSc 2019 Obafemi Awolowo University</p>
+            </li>
+            <li class="text-dark">
+                <p>MSc 2020 University of Glassgow</p>
+            </li>
+
+        </ul>
+    </div>
+</section>
+<section id="msg">
+    <div class="container">
+        <!-- contact form form-control, form-label, form-select, input-group, input-group-text -->
+        <h2 class="text-info display-5"> Get in touch</h2>
+        <p class="text-muted">if you have Questions to ask kindly fill the form below!</p>
+        <div class="row justify-content-center my-4">
+            <div class="col-lg-6">
+                <form>
+                    <label for="email" class="form-label">Email Address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@email.com">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="FirstName LastName">
+                    <label class="form-label">Your Message:</label>
+                    <textarea class="form-control text-start" style="height: 140px;">
+                        </textarea>
+                    <button class="btn btn-lg btn-info my-2">Submit</button>
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Button trigger modal -->
+<div class="container">
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        ALERT
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia assumenda,
+                        commodi repellat fugiat provident minima nesciunt ipsum voluptatibus? Ipsa temporibus et maxime
+                        minus voluptate quis ea voluptatibus officiis. Iste, reiciendis.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container">
+    <button class="btn btn-info my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+        aria-controls="staticBackdrop">
+        Read more
+    </button>
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum libero delectus, vitae at veritatis
+                sapiente explicabo voluptatem mollitia cumque ipsum nobis recusandae pariatur! Voluptatum eligendi
+                doloremque nostrum, inventore alias voluptate laboriosam eos labore unde modi repellendus quo autem
+                perferendis. Rerum?
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/img2.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>An image of a man</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img1.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <p>Image of Lekki-epe link bridge</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img2.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Descriptive text</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+</body>
+</html>

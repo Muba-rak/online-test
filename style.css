@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+}
+.heading{
+    color: pink;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+/* #content{
+    background-color: azure;
+} */
+
+p.error{
+    color: greenyellow;
+
+}
+p.success{
+    color: red;
+}
+div{
+    border: 1px solid brown;
+}
+.content2{
+    border: 2px dashed yellow;
+}
+
+a[href='about.html']{
+    color: red;
+}
+.content2 p{
+    color: blue;
+    font-style: italic;
+    /* display: flex; */
+    justify-content: space-between;
+    
+}
+.special_p{
+    font-size: 20px;
+    font-weight: 900;
+    color: aqua;
+}
+.p2{
+    color: beige;
+}
+img{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
